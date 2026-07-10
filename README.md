@@ -20,7 +20,7 @@ Drop a style URL into MapLibre and ship. That's the whole onboarding.
 <script>
   const map = new maplibregl.Map({
     container: 'map',
-    style: 'https://styles.maptoolkit.net/maptoolkit/maptoolkit.json',
+    style: 'https://styles.maptoolkit.net/summer.json',
     center: [11.4, 47.27],
     zoom: 8,
   });
@@ -97,7 +97,7 @@ No key, no sign-up. Adaptive rate limiting protects shared infrastructure: unreg
 
 ### Can I use this in a commercial product?
 
-Yes — if your project is **public-facing** (not behind a login or paywall) and your organisation is under both **EUR 1M annual consolidated revenue** *and* **10 FTE employees**. You must keep the Maptoolkit + OpenStreetMap attribution visible. Backend-only processing, bulk extraction, offline tile generation, mirroring, reselling and use in print are not permitted under the Community License — those need Enterprise (or, for printable maps, [Printmaps.net](https://www.printmaps.net/)).
+Yes — if your organisation is under both **EUR 1M annual consolidated revenue** *and* **10 FTE employees**. You must keep the Maptoolkit + OpenStreetMap attribution visible. Backend-only processing, bulk extraction, offline tile generation, mirroring, reselling and use in print are not permitted under the Community License — those need Enterprise (or, for printable maps, [Printmaps.net](https://www.printmaps.net/)).
 
 ---
 
