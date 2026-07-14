@@ -41,10 +41,6 @@ https://styles.maptoolkit.org/summer-en.json
 https://styles.maptoolkit.org/hiking-ja.json
 ```
 
-### `local/`
-
-`local/` holds the same 7 styles again, suffixed `-local` (e.g. `local/summer-local.json`). These files are identical to the root default styles — the folder exists so tooling that iterates over a fixed list of locale codes (`local`, `ar`, `cs`, ... `zh`) doesn't need a special case for "no language".
-
 ## 3D versions (`3d/`)
 
 `3d/` holds the same 7 styles with terrain enabled — `terrain.source` points at the `rgb-tiles` raster-DEM source, with `exaggeration: 1`. Everything else, including labels, is identical to the default styles (local language, Latin-script subtitle for non-Latin names).
@@ -57,4 +53,8 @@ https://styles.maptoolkit.org/summer-3d.json
 
 ## Deployment note
 
-Regardless of the subfolder a file lives in here, every variant is served flat from the root of `styles.maptoolkit.org` — there is no `/en/`, `/3d/`, or `/local/` path segment in the served URL, only in this repo.
+Regardless of the subfolder a file lives in here, every variant is served flat from the root of `styles.maptoolkit.org` — there is no `/en/` or `/3d/` path segment in the served URL, only in this repo.
+
+## License
+
+Please note the copyrights and terms of use for these styles: [License.md](../LICENSE.md)
