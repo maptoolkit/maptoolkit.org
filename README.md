@@ -74,7 +74,7 @@ Every map served under the Community License **must** visibly attribute both **M
 **Requirements:**
 
 - **Maptoolkit logo** — displayed clearly on the map, minimum **24px** height (24pt/dp on mobile, including Retina).
-- **Copyright line** — `© Maptoolkit © OSM` in the bottom-right corner; both names must be clickable links to [maptoolkit.com/copyright](https://www.maptoolkit.com/copyright/) and [openstreetmap.org/copyright](https://www.openstreetmap.org/copyright) respectively.
+- **Copyright line** — `© Maptoolkit © Openstreetmap` in the bottom-right corner; both names must be clickable links to [maptoolkit.com/copyright](https://www.maptoolkit.com/copyright/) and [openstreetmap.org/copyright](https://www.openstreetmap.org/copyright) respectively.
 - **Legibility** — logo and copyright must remain fully visible and unobstructed at every map size, orientation and zoom level.
 - **Z-index** — custom UI controls or overlays must not hide or obscure the attribution.
 
