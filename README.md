@@ -20,7 +20,7 @@ Drop a style URL into MapLibre and ship. That's the whole onboarding.
 <script>
   const map = new maplibregl.Map({
     container: 'map',
-    style: 'https://styles.maptoolkit.net/summer.json',
+    style: 'https://styles.maptoolkit.org/summer.json',
     center: [11.4, 47.27],
     zoom: 8,
   });
